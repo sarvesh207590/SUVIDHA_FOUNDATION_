@@ -1,0 +1,24 @@
+/* Adjust caption position for large screens */
+@media (min-width: 992px) {
+    .carousel-caption {
+      position: absolute;
+      top: 25%; /* Adjust to desired vertical position */
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+  }
+  responsive-heading {
+    font-size: 1.75rem; 
+    color: rgb(220, 250, 215);
+  }
+  
+  /* Change heading to h1 style for large screens */
+  @media (min-width: 992px) {
+    .responsive-heading {
+      font-size: 2.5rem; /* h1 equivalent */
+      font-weight: bold;
+    }
+  }
+  
+  

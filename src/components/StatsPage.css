@@ -1,0 +1,122 @@
+/* StatsPage.css */
+#stats {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .stats-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffcc00; /* Yellow color for the title */
+    margin-bottom: 40px;
+  }
+  
+  .stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .stat-item {
+    background-color: #222;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+    width: 200px; /* Square shape */
+    height: 200px; /* Ensure the card remains square */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .stat-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stat-icon {
+    font-size: 40px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .stat-item:hover .stat-icon {
+    color: #ff6f00; /* Change icon color on hover */
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .stat-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #f1f1f1;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Large Devices (Desktops) */
+  @media (min-width: 1024px) {
+    .stats-container {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  
+    .stat-item {
+      width: 200px; /* Ensure square shape */
+      height: 200px;
+    }
+  }
+  
+  /* Medium Devices (Tablets) */
+  @media (max-width: 1023px) {
+    .stats-container {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .stat-item {
+      width: 200px; /* Ensure square shape */
+      height: 200px;
+    }
+  }
+  
+  /* Small Devices (Mobiles) */
+  @media (max-width: 768px) {
+    .stats-title {
+      font-size: 2rem; /* Smaller title size on mobile */
+    }
+  
+    .stats-container {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .stat-item {
+      width: 200px; /* Ensure square shape */
+      height: 200px;
+    }
+  }
+  

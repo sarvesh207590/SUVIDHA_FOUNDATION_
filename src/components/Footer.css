@@ -1,0 +1,50 @@
+/* Footer styles */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+.footer-heading {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #ffcc00; /* Yellowish for headings */
+}
+
+.footer a {
+  color: #ffcc00;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  font-size: 0.85rem;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+  margin-top: 20px;
+}
+
+.social-icon {
+  color: #ffcc00;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #fff;
+}
+
+/* Social Media Icon Hover Effect */
+.social-icon:hover {
+  color: #ff6f00; /* Change to a hover color */
+}

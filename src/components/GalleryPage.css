@@ -1,0 +1,60 @@
+/* General styling */
+#gallery {
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 8px;
+  }
+  
+  .gallery-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  /* Styling for gallery items */
+  .gallery-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-card {
+    background-color: #ffcc00;
+
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+  }
+  
+  .image-card img {
+    height:250px;
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-card img:hover {
+    transform: scale(1.1);
+  }
+  
+  .image-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #555;
+    text-transform: capitalize;
+  }
+  
+  /* Responsive design */
+   @media (max-width: 768px) {
+    .gallery-title {
+      font-size: 1.8rem;
+    }
+  
+    .image-name {
+      font-size: 1rem;
+    }
+  } 
+  

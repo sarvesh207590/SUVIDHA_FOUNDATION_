@@ -1,0 +1,71 @@
+/* AboutSection.css */
+#about {
+    background-color: #f8f9fa; /* Light background */
+    padding: 50px 0;
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #ffcc00; /* Yellow */
+    font-weight: bold;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 204, 0, 0.5);     background-color: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .about-card {
+    width: 300px;
+    margin: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-heading {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .card-body h4 {
+    font-weight: bold;
+    color: #ffbf00; /* Yellow for headings */
+  }
+  
+  .card-body p {
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .d-flex {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-card {
+      margin-bottom: 20px;
+    }
+  }
+  

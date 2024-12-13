@@ -1,0 +1,30 @@
+.container {
+    max-width: 900px;
+  }
+  
+  .table {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .table thead th {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  .table tbody td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+  }
+  
+  h1 {
+    font-family: "Arial", sans-serif;
+    color: #007bff;
+  }
+  
+  p.lead {
+    color: #6c757d;
+    font-size: 1.2rem;
+  }
+  

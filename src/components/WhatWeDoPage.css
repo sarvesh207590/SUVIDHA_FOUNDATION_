@@ -1,0 +1,56 @@
+/* WhatWeDoPage.css */
+#what-we-do {
+    background-color: #f8f9fa; /* Light background for the section */
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffae00; /* Yellow color for the title */
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  
+  .cause-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cause-card {
+    background-color:#f4ed2c;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 106, 0, 0.934);     transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cause-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .cause-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .cause-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .cause-cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

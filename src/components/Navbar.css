@@ -1,0 +1,67 @@
+.navbar {
+
+  height: 75px; 
+  display: flex;
+  align-items: center;
+  background-color: #343a40; 
+  padding-right: 10px;
+}
+
+.navbar-logo {
+   padding-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.navbar-logo-img {
+  height: 65px; 
+  width: auto; 
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff; 
+  text-align: center;
+  margin: 0 auto;
+  flex-grow: 1; 
+}
+
+/* Navigation Link Styling */
+.nav-link {
+  color: #ccc !important; /* Light gray for default */
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fff !important; /* Highlight on hover */
+}
+
+/* Button Group Styling */
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .btn {
+  font-size: 0.9rem;
+  padding: 8px 16px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-title {
+    font-size: 1.2rem; 
+  }
+
+  .navbar-logo-img {
+    height: 60px; 
+  }
+
+  .navbar .btn {
+    font-size: 0.8rem; /* Smaller buttons */
+    padding: 6px 12px;
+  }
+}
+
